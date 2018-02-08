@@ -32,12 +32,10 @@
 int main()
 {
 
-    printf("intializing BST...\n");
+    printf("\nintializing BST...\n");
     struct BinarySearchTree* newBST = malloc(sizeof(struct BinarySearchTree));
     initBST(newBST);
 
-
-    printf("xyz...\n");
     int size = 0;
     int contains = 0;
     
@@ -80,7 +78,7 @@ int main()
     size = sizeBST(newBST);
     printf("size of BST is %i\n", size);
 
-    printf("adding nodes to BST...\n");
+    printf("\nadding nodes to BST...\n");
     // height 0
     addBST(newBST, var0);
 
@@ -117,7 +115,7 @@ int main()
 
 
     // remove 8 (var2)
-    printf("calling removeBST()...\n");
+    printf("\ncalling removeBST()...\n");
     removeBST (newBST, var2);
 
 

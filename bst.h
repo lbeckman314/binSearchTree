@@ -36,6 +36,9 @@ TYPE _leftMostChild (struct Node * current);
 struct node * _removeLeftmostChild (struct Node *current);
 struct Node *  _nodeRemoveBST (struct Node * current, TYPE d);
 
+struct Node * getFirst (struct Node * current, TYPE d);
+void removeFirst (struct Node * current, TYPE d);
+
 
 
 #endif

@@ -162,3 +162,18 @@ struct Node *  _nodeRemoveBST (struct Node * current, TYPE d) {
 }
 
 
+struct Node * getFirst (struct Node * current, TYPE d)
+{
+    // traverse the tree until the leftmost child is found
+    while (current->left != NULL)
+        current = current->left;
+
+    // function returns TYPE, so perhaps it should just return the value of the current node.
+    return current;
+}
+
+void removeFirst (struct Node * current, TYPE d)
+{
+    current = getFirst(current, d); 
+    _nodeRemoveBST(current, current->value);
+}

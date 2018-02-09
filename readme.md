@@ -1,4 +1,5 @@
 fig.tex by by [MartinThoma](https://github.com/MartinThoma/LaTeX-examples/blob/master/tikz/binary-tree/binary-tree.tex)
+
 printBinTree.c by [ponnada](http://web.archive.org/web/20090617110918/http://www.openasthra.com/c-tidbits/printing-binary-trees-in-ascii/)
 
 week5 worksheet 29

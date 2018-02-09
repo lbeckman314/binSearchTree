@@ -1,3 +1,7 @@
+// source:
+// https://stackoverflow.com/questions/801740/c-how-to-draw-a-binary-tree-to-the-console
+// http://web.archive.org/web/20090617110918/http://www.openasthra.com/c-tidbits/printing-binary-trees-in-ascii/
+
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
